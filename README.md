@@ -1,16 +1,5 @@
-# Dockirezed.NetCore
+# What is Docker
 
-I'm glad to hear that it's working! Let's break down the changes made to the Dockerfile and the Program.cs, as well as discuss what these configurations mean and how you can adapt them for different projects.
-
-Changes Made
-Program.cs
-Added the line app.Run("http://0.0.0.0:80"); to explicitly set the URL to listen on all network interfaces at port 80. This ensures that the application inside the container is accessible from outside the container.
-
-csharp
-Copy code
-app.Run("http://0.0.0.0:80");
-Dockerfile
-Here's the final Dockerfile that works for your project:
 
 Dockerfile
 Copy code
