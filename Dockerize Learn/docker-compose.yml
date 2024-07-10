@@ -1,0 +1,6 @@
+﻿services:
+  dockerizewithrider:
+    image: dockerizewithrider
+    build:
+      context: .
+      dockerfile: DockerizeWithRider/Dockerfile
