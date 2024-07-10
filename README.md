@@ -1,1 +1,0 @@
-# Dockirezed.NetCore
